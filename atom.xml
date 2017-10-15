@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://geoinsights.xyz/"/>
-  <updated>2017-07-15T12:55:06.000Z</updated>
+  <updated>2017-10-15T11:54:23.000Z</updated>
   <id>http://geoinsights.xyz/</id>
   
   <author>
@@ -16,11 +16,54 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>骑行轨迹地图</title>
+    <link href="http://geoinsights.xyz/2017/10/15/%E9%AA%91%E8%A1%8C%E8%BD%A8%E8%BF%B9%E5%9C%B0%E5%9B%BE/"/>
+    <id>http://geoinsights.xyz/2017/10/15/骑行轨迹地图/</id>
+    <published>2017-10-15T11:39:00.000Z</published>
+    <updated>2017-10-15T11:54:23.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="1-前言"><a href="#1-前言" class="headerlink" title="1 前言"></a>1 前言</h1><p>自行车既是通勤工具，也是运动工具，还是观光工具，现如今共享单车的风靡，骑行也堪称为一种时尚。作为一个自行车运动爱好者，又是从事地图相关的工作，作者一直想要制作全国骑行爱好者的运动轨迹图。最近通过一款自行车运动爱好者常用APP的网站，获取到一些骑行运动的轨迹数据，通过简单的数据处理，制作了一系列骑行轨迹地图，包括全国的骑行轨迹概览图，以及各个省会城市骑行轨迹图，与大家分享。</p>
+<h1 id="2-数据获取"><a href="#2-数据获取" class="headerlink" title="2 数据获取"></a>2 数据获取</h1><p>主要数据有两项，一是全国范围内的骑行轨迹数据，二是各个省会城市的地理范围数据，以及城市点位数据。轨迹数据来源于一款骑行运动APP的网站，获取了2017年10月2日晚8时至6日上午11时的骑行轨迹数据，约18万条记录。全国省会城市地理范围数据和城市点位数据来自于天地图网站的数据接口，获取的城市面状区域以及县级居民点位如图。<br><img src="fig1.jpg" alt="省会城市范围与县级居民点"></p>
+<h1 id="3-地图制作"><a href="#3-地图制作" class="headerlink" title="3 地图制作"></a>3 地图制作</h1><p>使用matplotlib进行地图绘图和地图标注。</p>
+<ul>
+<li>地图基本内容：首先绘制省会城市边界，然后按照每个城市的面状区域的包络矩形，绘制完全处于包络矩形范围内的轨迹数据，其范围内县级以上居民点做文字标注</li>
+<li>地图基本样式：地图背景为黑色；省会城市边界为白色，线宽0.1；轨迹绘制颜色为deepskyblue，线宽为0.1，透明度为0.75；地图标注字体为雅黑，字大为6，颜色为白色，设透明度0.75</li>
+</ul>
+<h1 id="4-系列地图"><a href="#4-系列地图" class="headerlink" title="4 系列地图"></a>4 系列地图</h1><ul>
+<li>全国骑行轨迹概览图</li>
+</ul>
+<p><img src="xing_china.png" alt=""></p>
+<ul>
+<li>省会城市骑行轨迹图（部分）</li>
+</ul>
+<p><img src="北京市_3.png" alt=""><br><img src="上海市_3.png" alt=""><br><img src="广州市_3.png" alt=""><br><img src="深圳市_3.png" alt=""><br><img src="武汉市_3.png" alt=""><br><img src="杭州市_3.png" alt=""><br><img src="南京市_3.png" alt=""><br><img src="西安市_3.png" alt=""><br><img src="成都市_3.png" alt=""><br><img src="长沙市_3.png" alt=""><br><img src="郑州市_3.png" alt=""><br><img src="沈阳市_3.png" alt=""><br><img src="兰州市_3.png" alt=""><br><img src="昆明市_3.png" alt=""><br><img src="拉萨市_3.png" alt=""></p>
+<p>一共制作了31个省会城市，外加深圳，厦门两个城市地图，鉴于图幅过多，其他城市地图从略。</p>
+<h1 id="5-总结与说明"><a href="#5-总结与说明" class="headerlink" title="5 总结与说明"></a>5 总结与说明</h1><p>本文介绍了骑行轨迹地图制作的数据来源与基本方法，利用简单的工具制作骑行轨迹图，可以直观的看出骑行爱好者的线路分布热点，同时可以看出邻近城市之间骑行线路及其关联性。</p>
+<p>本文对运动轨迹数据初步进行地图可视化，敬请期待后续研究。</p>
+<p>联系方式: whuluwei[at]outlook[dot]com</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1 前言&quot;&gt;&lt;/a&gt;1 前言&lt;/h1&gt;&lt;p&gt;自行车既是通勤工具，也是运动工具，还是观光工具，现如今共享单车的风靡，骑行也堪称为一种时尚。作为一个自行车运动爱好者，又是从
+    
+    </summary>
+    
+    
+      <category term="骑行轨迹" scheme="http://geoinsights.xyz/tags/%E9%AA%91%E8%A1%8C%E8%BD%A8%E8%BF%B9/"/>
+    
+      <category term="数据可视化" scheme="http://geoinsights.xyz/tags/%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96/"/>
+    
+      <category term="地理可视化" scheme="http://geoinsights.xyz/tags/%E5%9C%B0%E7%90%86%E5%8F%AF%E8%A7%86%E5%8C%96/"/>
+    
+  </entry>
+  
+  <entry>
     <title>开始</title>
     <link href="http://geoinsights.xyz/2017/07/15/%E5%BC%80%E5%A7%8B/"/>
     <id>http://geoinsights.xyz/2017/07/15/开始/</id>
     <published>2017-07-15T12:54:08.000Z</published>
-    <updated>2017-07-15T12:55:06.000Z</updated>
+    <updated>2017-07-20T02:15:56.000Z</updated>
     
     <content type="html"><![CDATA[<p>就是一个开始。</p>
 ]]></content>
