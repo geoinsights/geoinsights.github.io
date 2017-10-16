@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://geoinsights.xyz/"/>
-  <updated>2017-10-15T11:54:23.000Z</updated>
+  <updated>2017-10-16T04:51:45.000Z</updated>
   <id>http://geoinsights.xyz/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://geoinsights.xyz/2017/10/15/%E9%AA%91%E8%A1%8C%E8%BD%A8%E8%BF%B9%E5%9C%B0%E5%9B%BE/"/>
     <id>http://geoinsights.xyz/2017/10/15/骑行轨迹地图/</id>
     <published>2017-10-15T11:39:00.000Z</published>
-    <updated>2017-10-15T11:54:23.000Z</updated>
+    <updated>2017-10-16T04:51:45.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="1-前言"><a href="#1-前言" class="headerlink" title="1 前言"></a>1 前言</h1><p>自行车既是通勤工具，也是运动工具，还是观光工具，现如今共享单车的风靡，骑行也堪称为一种时尚。作为一个自行车运动爱好者，又是从事地图相关的工作，作者一直想要制作全国骑行爱好者的运动轨迹图。最近通过一款自行车运动爱好者常用APP的网站，获取到一些骑行运动的轨迹数据，通过简单的数据处理，制作了一系列骑行轨迹地图，包括全国的骑行轨迹概览图，以及各个省会城市骑行轨迹图，与大家分享。</p>
 <h1 id="2-数据获取"><a href="#2-数据获取" class="headerlink" title="2 数据获取"></a>2 数据获取</h1><p>主要数据有两项，一是全国范围内的骑行轨迹数据，二是各个省会城市的地理范围数据，以及城市点位数据。轨迹数据来源于一款骑行运动APP的网站，获取了2017年10月2日晚8时至6日上午11时的骑行轨迹数据，约18万条记录。全国省会城市地理范围数据和城市点位数据来自于天地图网站的数据接口，获取的城市面状区域以及县级居民点位如图。<br><img src="fig1.jpg" alt="省会城市范围与县级居民点"></p>
@@ -40,7 +40,7 @@
 <p>一共制作了31个省会城市，外加深圳，厦门两个城市地图，鉴于图幅过多，其他城市地图从略。</p>
 <h1 id="5-总结与说明"><a href="#5-总结与说明" class="headerlink" title="5 总结与说明"></a>5 总结与说明</h1><p>本文介绍了骑行轨迹地图制作的数据来源与基本方法，利用简单的工具制作骑行轨迹图，可以直观的看出骑行爱好者的线路分布热点，同时可以看出邻近城市之间骑行线路及其关联性。</p>
 <p>本文对运动轨迹数据初步进行地图可视化，敬请期待后续研究。</p>
-<p>联系方式: whuluwei[at]outlook[dot]com</p>
+<p>联系方式: geoinsights@outlook.com</p>
 ]]></content>
     
     <summary type="html">
