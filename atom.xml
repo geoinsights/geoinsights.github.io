@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>GeoInsights</title>
-  <subtitle>卢巍的个人站点</subtitle>
+  <subtitle>地理与地图解读世界</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://geoinsights.xyz/"/>
@@ -9,7 +9,7 @@
   <id>http://geoinsights.xyz/</id>
   
   <author>
-    <name>卢巍(Wei Lu)</name>
+    <name>GeoInsights</name>
     
   </author>
   
